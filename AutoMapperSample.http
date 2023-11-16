@@ -1,0 +1,25 @@
+@AutoMapperSample_HostAddress = https://localhost:7140
+
+GET {{AutoMapperSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{AutoMapperSample_HostAddress}}/todoitems/
+
+###
+  
+
+POST {{AutoMapperSample_HostAddress}}/todoitems/
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+POST {{AutoMapperSample_HostAddress}}/todoitems/
+
+###
